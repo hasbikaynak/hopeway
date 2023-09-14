@@ -9,6 +9,4 @@ public class HopewayApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HopewayApplication.class, args);
 	}
-
-
 }
