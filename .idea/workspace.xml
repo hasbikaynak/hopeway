@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="938e165c-c441-44ed-8ca4-7a11b438773c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" afterDir="false" />
-    </list>
+    <list default="true" id="938e165c-c441-44ed-8ca4-7a11b438773c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +68,7 @@
       <workItem from="1695039803755" duration="43000" />
       <workItem from="1695039856419" duration="11838000" />
       <workItem from="1695075260267" duration="369000" />
+      <workItem from="1695075640116" duration="352000" />
     </task>
     <servers />
   </component>
@@ -88,7 +86,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
