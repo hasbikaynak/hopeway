@@ -6,19 +6,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotNull;
-import jdk.jfr.DataAmount;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
 @Entity
-/*@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder(toBuilder = true)*/
 public class ContactMessage{
 
     @Id
@@ -32,7 +23,7 @@ public class ContactMessage{
     private String subject;
     @NotNull
     private String message;
-    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern= "yyyy-MM-dd")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private LocalDate date;
 
     public Long getId() {
@@ -82,18 +73,4 @@ public class ContactMessage{
     public void setDate(LocalDate date) {
         this.date = date;
     }
-
-    public ContactMessage() {
-    }
-
-    public ContactMessage(Long id, @NotNull String name, @NotNull String email, @NotNull String subject, @NotNull String message, LocalDate date) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.subject = subject;
-        this.message = message;
-        this.date = date;
-    }
-
-
 }
