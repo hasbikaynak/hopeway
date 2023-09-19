@@ -1,5 +1,6 @@
 package com.hpw.contactmessage;
 
+import com.hpw.contactmessage.payload.response.ContactMessageResponse;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
