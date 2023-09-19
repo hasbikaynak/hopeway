@@ -18,6 +18,8 @@ public class ContactMessageController {
     }
 
 
+
+    //searchByEmail()
     @GetMapping("/searchByEmail")
    // @PreAuthorize("hasAnyAuthority('ADMIN')")
     public Page<ContactMessageResponse> searchByEmail( // http://localhost:8080/contactMessages/searchByEmail?email=beyza@gmail.com&page=0
@@ -27,5 +29,20 @@ public class ContactMessageController {
             @RequestParam(value = "sort", defaultValue = "date") String sort,
             @RequestParam(value = "type", defaultValue = "desc") String type) {
         return contactMessageService.searchByEmail(email, page, size, sort, type);
+    }
+
+    //searchBySubject()
+    @GetMapping("/searchBySubject")  //// http://localhost:8080/contactMessages/searchBySubject?subject=deneme + GET
+    //@PreAuthorize("hasAnyAuthority('ADMIN')")
+    public Page<ContactMessageResponse> searchBySubject(
+            @RequestParam(value = "subject") String subject,
+            @RequestParam(value = "page",defaultValue = "0") int page,
+            @RequestParam(value = "size",defaultValue = "10") int size,
+            @RequestParam(value = "sort", defaultValue = "date") String sort,
+            @RequestParam(value = "type",defaultValue = "desc") String type
+    ){
+        return contactMessageService.searchBySubject(subject,page,size,sort,type);
+
+
     }
 }

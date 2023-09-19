@@ -17,24 +17,42 @@ public class ContactMessageService {
         this.contactMessageRepository = contactMessageRepository;
     }
 
+
+    //searchByEmail()
     public Page<ContactMessageResponse> searchByEmail(String email, int page, int size, String sort, String type) {
-        Pageable pageable = PageRequest.of(page,size, Sort.by(sort).ascending());
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sort).ascending());
 
-        if (Objects.equals(type,"desc")){
-            pageable = PageRequest.of(page, size,Sort.by(sort).descending());
+        if (Objects.equals(type, "desc")) {
+            pageable = PageRequest.of(page, size, Sort.by(sort).descending());
         }
+        return contactMessageRepository.findByEmailEquals(email, pageable).map(this::createResponse);
+    }
 
-        return contactMessageRepository.findByEmailEquals(email,pageable).map(this::createResponse);
+
+    //searchBySubject()
+    public Page<ContactMessageResponse> searchBySubject(String subject, int page, int size, String sort, String type) {
+        Pageable pageable = getPageableWithProperties(page, size, sort, type);
+        return contactMessageRepository.findBySubjectEquals(subject, pageable).map(this::createResponse);
 
     }
+
+    //pageable yapi icin yardimci method
+    public Pageable getPageableWithProperties(int page, int size, String sort, String type) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sort).ascending());
+        if (Objects.equals(type, "desc")) {
+            pageable = PageRequest.of(page, size, Sort.by(sort).descending());
+        }
+        return pageable;
+    }
+
 
     // Pojo - DTO Donusumu icin yardimci method
     public ContactMessageResponse createResponse(ContactMessage contactMessage) {
-        return new ContactMessageResponse(  contactMessage.getName(),
-                                            contactMessage.getEmail(),
-                                            contactMessage.getSubject(),
-                                            contactMessage.getMessage(),
-                                            contactMessage.getDate());
+        return new ContactMessageResponse(
+                contactMessage.getName(),
+                contactMessage.getEmail(),
+                contactMessage.getSubject(),
+                contactMessage.getMessage(),
+                contactMessage.getDate());
     }
-
 }
