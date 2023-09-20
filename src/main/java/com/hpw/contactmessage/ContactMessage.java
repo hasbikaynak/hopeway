@@ -73,4 +73,16 @@ public class ContactMessage{
     public void setDate(LocalDate date) {
         this.date = date;
     }
+
+    public ContactMessage(Long id, @NotNull String name, @NotNull String email, @NotNull String subject, @NotNull String message, LocalDate date) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.subject = subject;
+        this.message = message;
+        this.date = date;
+    }
+
+    public ContactMessage() {
+    }
 }
