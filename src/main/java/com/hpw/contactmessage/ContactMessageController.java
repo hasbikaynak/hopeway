@@ -1,13 +1,12 @@
 package com.hpw.contactmessage;
 
-
+import com.hpw.contactmessage.payload.request.ContactMessageRequest;
 import com.hpw.contactmessage.payload.response.ContactMessageResponse;
+import com.hpw.payload.response.ResponseMessage;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/contactMessages")
@@ -16,6 +15,12 @@ public class ContactMessageController {
 
     private final ContactMessageService contactMessageService;
 
+
+    @PostMapping("/save")   // save()  http://localhost:8080/contactMessages/save +POST
+    // @PreAuthorize("hasAnyAuthority('ADMIN', USER, USER_GUEST)")
+    public ResponseMessage<ContactMessageResponse> save(@RequestBody @Valid ContactMessageRequest contactMessageRequest){
+        return contactMessageService.save(contactMessageRequest);
+    }
 
     /*
     {
@@ -66,8 +71,6 @@ public class ContactMessageController {
             @RequestParam(value = "sort", defaultValue = "date") String sort,
             @RequestParam(value = "type", defaultValue = "desc") String type) {
         return contactMessageService.searchByEmail(email, page, size, sort, type);
-
-
     }
 
     // http://localhost:8080/contactMessages/searchBySubject?subject=deneme + GET

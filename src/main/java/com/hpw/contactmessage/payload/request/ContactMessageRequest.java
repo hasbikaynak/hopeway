@@ -6,7 +6,7 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 
 public record ContactMessageRequest (@NotNull(message = "Please enter name")
-                                     @Size(min=2,max = 16, message = "Your name should be at least 4 characters")
+                                     @Size(min=2,max = 16, message = "Your name should be at least 2 characters")
                                      @Pattern(regexp = "\\A(?!\\s*\\Z).+",message = "Your message must consist of the character .")
                                      String name,
                                      @Email(message = "Please enter valid email")

@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="&quot;pom.xlm guncel&quot;" />
+    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="dtopojoMapper">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/models/enums/SortingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/helper/PageableHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/mapper/DtoPojoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ResponseMessage$ResponseMessageBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ResponseMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/models/enums/SortingType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/payload/helper/PageableHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/payload/mapper/DtoPojoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hpw.HopewayApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hpw.HopewayApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/exception/IllegalArgumentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/IllegalArgumentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/messages/ErrorMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/messages/ErrorMessages.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,25 +41,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="main" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -42,26 +56,20 @@
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OguzhanPr&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="25428a13-5b97-4c6c-8a69-a12246ac667e" />
+        <option name="accountId" value="26ab913a-c94c-4549-abf8-a5962625ded9" />
         <option name="url" value="https://github.com/hasbikaynak/hopeway.git" />
       </UrlAndAccount>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessage.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -74,59 +82,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Merging oguzhan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn install" />
-    </option>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hpw.config" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.HopewayApplication">
-    <configuration name="HopewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hpw.HopewayApplication" />
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hpw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="HopewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="hopeway" />
+      <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hpw.HopewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HopewayApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -139,16 +127,43 @@
       <workItem from="1695038785635" duration="1361000" />
       <workItem from="1695068194232" duration="3482000" />
       <workItem from="1695072055272" duration="2709000" />
+      <workItem from="1695295928395" duration="9000" />
+      <workItem from="1695302965028" duration="8651000" />
+      <workItem from="1695388125797" duration="5469000" />
     </task>
-    <task id="LOCAL-00001" summary="&quot;pom.xlm guncel&quot;">
+    <task id="LOCAL-00001" summary="degisiklik">
       <option name="closed" value="true" />
-      <created>1695397933474</created>
+      <created>1695213252427</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1695397933474</updated>
+      <updated>1695213252427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="istenmeyen bosluklar ve yorum satirlari temizlendi">
+      <option name="closed" value="true" />
+      <created>1695214117357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695214117357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ResponseMessage.java has been created">
+      <option name="closed" value="true" />
+      <created>1695214419116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695214419116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ResponseMessage.java space has been deleted">
+      <option name="closed" value="true" />
+      <created>1695214749065</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695214749065</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,9 +175,15 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+              <option name="FILTERS">
                 <map>
-                  <entry key="Show.Git.Branches" value="true" />
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -172,7 +193,22 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;pom.xlm guncel&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;pom.xlm guncel&quot;" />
+    <MESSAGE value="degisiklik" />
+    <MESSAGE value="istenmeyen bosluklar ve yorum satirlari temizlendi" />
+    <MESSAGE value="ResponseMessage.java has been created" />
+    <MESSAGE value="ResponseMessage.java space has been deleted" />
+    <MESSAGE value="dtopojoMapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="dtopojoMapper" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
