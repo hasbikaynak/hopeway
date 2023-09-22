@@ -24,10 +24,9 @@ import java.util.Objects;
 public class ContactMessageService {
 
     private final ContactMessageRepository contactMessageRepository;
+    private final PageableHelper pageableHelper;
+    private final DtoPojoMapper dtoPojoMapper;
 
-    public ContactMessageService(ContactMessageRepository contactMessageRepository) {
-        this.contactMessageRepository = contactMessageRepository;
-    }
 
     //save()
     public ResponseMessage<ContactMessageResponse> save(ContactMessageRequest contactMessageRequest) {
@@ -40,11 +39,10 @@ public class ContactMessageService {
         return ResponseMessage.<ContactMessageResponse>builder()
                 .message(SuccessMessages.CONTACT_MESSAGE_SAVED_SUCCESSFULLY)
                 .httpStatus(HttpStatus.CREATED)
-                .object(createResponse(savedData))
+                .object(dtoPojoMapper.createResponse(savedData))
                 .build();
     }
-    private final PageableHelper pageableHelper;
-    private final DtoPojoMapper dtoPojoMapper;
+
 
     //searchByEmail()
     public Page<ContactMessageResponse> searchByEmail(String email, int page, int size, String sort, String type) {
