@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/ConflictException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/IllegalArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/messages/ErrorMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageService.class" afterDir="false" />
-    </list>
+    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="&quot;pom.xlm guncel&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +15,24 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -45,8 +40,28 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="25428a13-5b97-4c6c-8a69-a12246ac667e" />
+        <option name="url" value="https://github.com/hasbikaynak/hopeway.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessage.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -73,11 +88,32 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HopewayApplication">
+    <configuration name="HopewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hpw.HopewayApplication" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hpw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HopewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="hopeway" />
@@ -86,6 +122,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HopewayApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,9 +140,39 @@
       <workItem from="1695068194232" duration="3482000" />
       <workItem from="1695072055272" duration="2709000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;pom.xlm guncel&quot;">
+      <option name="closed" value="true" />
+      <created>1695397933474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695397933474</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;pom.xlm guncel&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;pom.xlm guncel&quot;" />
   </component>
 </project>
