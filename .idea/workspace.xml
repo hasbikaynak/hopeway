@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="update">
+    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="update"></list>
       <change afterPath="$PROJECT_DIR$/target/classes/com/hpw/payload/response/ResponseMessage$ResponseMessageBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
+
     <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="ResponseMessage.java space has been deleted">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/payload/enums/RoleType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/payload/response/ResponseMessage.java" afterDir="false" />
@@ -32,7 +31,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageResponse.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageService.class" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated upstream
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RequestMappingsPanelOrder0": "0",
@@ -104,7 +102,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-=======
+
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -129,7 +127,7 @@
       <recent name="com.hpw.config" />
     </key>
   </component>
->>>>>>> Stashed changes
+
   <component name="RunManager">
     <configuration name="HopewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -155,7 +153,7 @@
       <workItem from="1695302965028" duration="8651000" />
       <workItem from="1695388125797" duration="5469000" />
     </task>
-<<<<<<< Updated upstream
+
     <task id="LOCAL-00001" summary="ResponseMessage.java space has been deleted">
       <option name="closed" value="true" />
       <created>1695404343822</created>
@@ -165,7 +163,7 @@
       <updated>1695404343822</updated>
     </task>
     <option name="localTasksCounter" value="2" />
-=======
+
     <task id="LOCAL-00001" summary="degisiklik">
       <option name="closed" value="true" />
       <created>1695213252427</created>
@@ -199,18 +197,18 @@
       <updated>1695214749065</updated>
     </task>
     <option name="localTasksCounter" value="5" />
->>>>>>> Stashed changes
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-<<<<<<< Updated upstream
+
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ResponseMessage.java space has been deleted" />
     <option name="LAST_COMMIT_MESSAGE" value="ResponseMessage.java space has been deleted" />
   </component>
-=======
+
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -252,5 +250,5 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
->>>>>>> Stashed changes
+
 </project>
