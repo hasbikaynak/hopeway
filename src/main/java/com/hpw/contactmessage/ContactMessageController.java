@@ -31,7 +31,7 @@ public class ContactMessageController {
     //searchByEmail()
     @GetMapping("/searchByEmail")
    // @PreAuthorize("hasAnyAuthority('ADMIN')")
-    public Page<ContactMessageResponse> searchByEmail( // http://localhost:8080/contactMessages/searchByEmail?email=beyza@gmail.com&page=0
+    public Page<ContactMessageResponse> searchByEmail(  // http://localhost:8080/contactMessages/searchByEmail?email=beyza@gmail.com&page=0
                                                        @RequestParam(value = "email") String email,
                                                        @RequestParam(value = "page", defaultValue = "0") int page,
                                                        @RequestParam(value = "size", defaultValue = "10") int size,
