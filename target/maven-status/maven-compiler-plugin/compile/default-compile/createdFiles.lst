@@ -1,0 +1,10 @@
+com/hpw/messages/SuccessMessages.class
+com/hpw/contactmessage/ResponseMessage$ResponseMessageBuilder.class
+com/hpw/messages/ErrorMessages.class
+com/hpw/contactmessage/payload/request/ContactMessageRequest.class
+com/hpw/contactmessage/payload/response/ContactMessageResponse.class
+com/hpw/exception/BadRequestException.class
+com/hpw/exception/ResourceNotFoundException.class
+com/hpw/contactmessage/ResponseMessage.class
+com/hpw/exception/IllegalArgumentException.class
+com/hpw/exception/ConflictException.class
