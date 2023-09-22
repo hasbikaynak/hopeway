@@ -21,14 +21,11 @@ public class ContactMessageController {
 
 
 
-    @PostMapping("/save")   //save() http://localhost:8080/contactMessages/save + POST
+    @PostMapping("/save")   //save() http://localhost:8080/contactMessages/save +  POST
     // @PreAuthorize("hasAnyAuthority('ADMIN', USER, USER_GUEST)")
     public ResponseMessage<ContactMessageResponse> save(@RequestBody @Valid ContactMessageRequest contactMessageRequest){
         return contactMessageService.save(contactMessageRequest);
     }
-
-
-
 
 
     //searchByEmail()
