@@ -18,15 +18,11 @@ public class ContactMessageController {
         this.contactMessageService = contactMessageService;
     }
 
-
-
-
     @PostMapping("/save")   // save()  http://localhost:8080/contactMessages/save +POST
     // @PreAuthorize("hasAnyAuthority('ADMIN', USER, USER_GUEST)")
     public ResponseMessage<ContactMessageResponse> save(@RequestBody @Valid ContactMessageRequest contactMessageRequest){
         return contactMessageService.save(contactMessageRequest);
     }
-
 
     //searchByEmail()
     @GetMapping("/searchByEmail")
@@ -51,7 +47,5 @@ public class ContactMessageController {
             @RequestParam(value = "type",defaultValue = "desc") String type
     ){
         return contactMessageService.searchBySubject(subject,page,size,sort,type);
-
-
     }
 }
