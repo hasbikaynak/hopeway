@@ -1,12 +1,12 @@
 package com.hpw.contactmessage;
 
 
+import com.hpw.contactmessage.payload.request.ContactMessageRequest;
 import com.hpw.contactmessage.payload.response.ContactMessageResponse;
+import com.hpw.payload.response.ResponseMessage;
+import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/contactMessages")
@@ -17,6 +17,17 @@ public class ContactMessageController {
     public ContactMessageController(ContactMessageService contactMessageService) {
         this.contactMessageService = contactMessageService;
     }
+
+
+
+
+    @PostMapping("/save")   //save() http://localhost:8080/contactMessages/save + POST
+    // @PreAuthorize("hasAnyAuthority('ADMIN', USER, USER_GUEST)")
+    public ResponseMessage<ContactMessageResponse> save(@RequestBody @Valid ContactMessageRequest contactMessageRequest){
+        return contactMessageService.save(contactMessageRequest);
+    }
+
+
 
 
 

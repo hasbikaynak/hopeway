@@ -4,25 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/ConflictException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/IllegalArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/messages/ErrorMessages.java" afterDir="false" />
+<<<<<<< Updated upstream
+    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hpw/payload/response/ResponseMessage$ResponseMessageBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="ResponseMessage.java space has been deleted">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/payload/enums/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hpw/payload/response/ResponseMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ResponseMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/request/ContactMessageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/request/ContactMessageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/payload/request/ContactMessageRequest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ContactMessageRequest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageResponse.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hpw/contactmessage/ContactMessageService.class" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +55,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "OguzhanPr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="26ab913a-c94c-4549-abf8-a5962625ded9" />
+        <option name="url" value="https://github.com/hasbikaynak/hopeway.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,6 +84,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "oguzhan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -68,6 +114,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;oguzhan&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,10 +124,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hpw.config" />
+    </key>
+  </component>
+>>>>>>> Stashed changes
   <component name="RunManager">
     <configuration name="HopewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="hopeway" />
+      <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hpw.HopewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,10 +151,106 @@
       <workItem from="1695038785635" duration="1361000" />
       <workItem from="1695068194232" duration="3482000" />
       <workItem from="1695072055272" duration="2709000" />
+      <workItem from="1695295928395" duration="9000" />
+      <workItem from="1695302965028" duration="8651000" />
+      <workItem from="1695388125797" duration="5469000" />
     </task>
+<<<<<<< Updated upstream
+    <task id="LOCAL-00001" summary="ResponseMessage.java space has been deleted">
+      <option name="closed" value="true" />
+      <created>1695404343822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695404343822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+=======
+    <task id="LOCAL-00001" summary="degisiklik">
+      <option name="closed" value="true" />
+      <created>1695213252427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695213252427</updated>
+    </task>
+    <task id="LOCAL-00002" summary="istenmeyen bosluklar ve yorum satirlari temizlendi">
+      <option name="closed" value="true" />
+      <created>1695214117357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695214117357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ResponseMessage.java has been created">
+      <option name="closed" value="true" />
+      <created>1695214419116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695214419116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ResponseMessage.java space has been deleted">
+      <option name="closed" value="true" />
+      <created>1695214749065</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695214749065</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< Updated upstream
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ResponseMessage.java space has been deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="ResponseMessage.java space has been deleted" />
+  </component>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="degisiklik" />
+    <MESSAGE value="istenmeyen bosluklar ve yorum satirlari temizlendi" />
+    <MESSAGE value="ResponseMessage.java has been created" />
+    <MESSAGE value="ResponseMessage.java space has been deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="ResponseMessage.java space has been deleted" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+>>>>>>> Stashed changes
 </project>
