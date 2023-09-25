@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="dtopojoMapper" />
+    <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="dtopojoMapper">
+      <change afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/mapper/DtoPojoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/mapper/DtoPojoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/response/ContactMessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/response/ContactMessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/messages/ErrorMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/messages/ErrorMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/messages/SuccessMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/messages/SuccessMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +73,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "oguzhan",
     "node.js.detected.package.eslint": "true",
@@ -79,7 +90,25 @@
       <recent name="com.hpw.config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Hopeway">
+    <configuration name="Hopeway" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hpw.HopewayApplication" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HopewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="demo" />
@@ -88,6 +117,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Hopeway" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -172,16 +204,5 @@
     <MESSAGE value="ResponseMessage.java space has been deleted" />
     <MESSAGE value="dtopojoMapper" />
     <option name="LAST_COMMIT_MESSAGE" value="dtopojoMapper" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

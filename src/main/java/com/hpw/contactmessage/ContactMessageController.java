@@ -7,6 +7,7 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
+import java.util.List;
 
 @RestController
 @RequestMapping("/contactMessages")
@@ -18,7 +19,7 @@ public class ContactMessageController {
 
     @PostMapping("/save")   // save()  http://localhost:8080/contactMessages/save +POST
     // @PreAuthorize("hasAnyAuthority('ADMIN', USER, USER_GUEST)")
-    public ResponseMessage<ContactMessageResponse> save(@RequestBody @Valid ContactMessageRequest contactMessageRequest){
+    public ResponseMessage<ContactMessageResponse> save(@RequestBody @Valid ContactMessageRequest contactMessageRequest) {
         return contactMessageService.save(contactMessageRequest);
     }
 
@@ -85,6 +86,16 @@ public class ContactMessageController {
             @RequestParam(value = "type", defaultValue = "desc") String type
     ) {
         return contactMessageService.searchBySubject(subject, page, size, sort, type);
+    }
 
+    @GetMapping("/getAll")
+// @PreAuthorize("hasAnyAuthority('ADMIN')")
+    public List<ContactMessageResponse> getAllContactMessages() { // http://localhost:8080/contactMessages/getAll
+        return contactMessageService.getAllContactMessages();
+    }
+
+    @DeleteMapping("/deleteById/{contactMessageId}")
+    public ResponseMessage deleteContactMessageById(@PathVariable Long contactMessageId) {
+        return contactMessageService.deleteContactMessage(contactMessageId);
     }
 }
