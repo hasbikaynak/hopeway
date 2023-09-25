@@ -10,6 +10,7 @@ public class DtoPojoMapper {
     // Pojo - DTO Donusumu icin yardimci method
     public ContactMessageResponse createResponse(ContactMessage contactMessage) {
         return new ContactMessageResponse(
+                contactMessage.getId(),
                 contactMessage.getName(),
                 contactMessage.getEmail(),
                 contactMessage.getSubject(),

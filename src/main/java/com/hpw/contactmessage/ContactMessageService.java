@@ -5,6 +5,7 @@ import com.hpw.contactmessage.payload.helper.PageableHelper;
 import com.hpw.contactmessage.payload.mapper.DtoPojoMapper;
 import com.hpw.contactmessage.payload.response.ContactMessageResponse;
 import com.hpw.exception.ConflictException;
+import com.hpw.exception.ResourceNotFoundException;
 import com.hpw.messages.ErrorMessages;
 import com.hpw.messages.SuccessMessages;
 import com.hpw.payload.response.ResponseMessage;
@@ -17,6 +18,7 @@ import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Objects;
 
 @Service
@@ -31,11 +33,11 @@ public class ContactMessageService {
     //save()
     public ResponseMessage<ContactMessageResponse> save(ContactMessageRequest contactMessageRequest) {
         boolean isSameMessageOnTheSameDay = contactMessageRepository.existsByEmailEqualsAndDateEquals(contactMessageRequest.email(), LocalDate.now());
-        if(isSameMessageOnTheSameDay){
+        if (isSameMessageOnTheSameDay) {
             throw new ConflictException(ErrorMessages.ALREADY_SEND_A_MESSAGE_TODAY);
         }
-        ContactMessage contactMessage=createContactMessage(contactMessageRequest);
-        ContactMessage savedData=contactMessageRepository.save(contactMessage);
+        ContactMessage contactMessage = createContactMessage(contactMessageRequest);
+        ContactMessage savedData = contactMessageRepository.save(contactMessage);
         return ResponseMessage.<ContactMessageResponse>builder()
                 .message(SuccessMessages.CONTACT_MESSAGE_SAVED_SUCCESSFULLY)
                 .httpStatus(HttpStatus.CREATED)
@@ -56,7 +58,8 @@ public class ContactMessageService {
         Pageable pageable = pageableHelper.getPageableWithProperties(page, size, sort, type);
         return contactMessageRepository.findBySubjectEquals(subject, pageable).map(dtoPojoMapper::createResponse);
     }
-    private ContactMessage createContactMessage(ContactMessageRequest contactMessageRequest){
+
+    private ContactMessage createContactMessage(ContactMessageRequest contactMessageRequest) {
         return ContactMessage.builder()
                 .name(contactMessageRequest.name())
                 .subject(contactMessageRequest.subject())
@@ -66,6 +69,27 @@ public class ContactMessageService {
                 .build();
     }
 
+    public List<ContactMessageResponse> getAllContactMessages() {
 
+        return contactMessageRepository.findAll()
+                .stream()
+                .map(dtoPojoMapper::createResponse)
+                .toList();
+    }
 
+    public ResponseMessage deleteContactMessage(Long contactMessageId) {
+
+        isContactMessageExist(contactMessageId);
+        contactMessageRepository.deleteById(contactMessageId);
+        return ResponseMessage.builder()
+                .message(SuccessMessages.CONTACT_MESSAGE_DELETED_SUCCESSFULLY)
+                .httpStatus(HttpStatus.OK)
+                .build();
+    }
+
+    private void isContactMessageExist(Long id) {
+
+        contactMessageRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessages.USER_MESSAGE_NOT_FOUND, id)));
+    }
 }
