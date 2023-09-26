@@ -7,6 +7,7 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
@@ -94,8 +95,9 @@ public class ContactMessageController {
         return contactMessageService.getAllContactMessages();
     }
 
+    // http://localhost:8080/contactMessages/deleteById/1
     @DeleteMapping("/deleteById/{contactMessageId}")
-    public ResponseMessage deleteContactMessageById(@PathVariable Long contactMessageId) {
+    public ResponseMessage<ContactMessageResponse> deleteContactMessageById(@PathVariable Long contactMessageId) {
         return contactMessageService.deleteContactMessage(contactMessageId);
     }
 }

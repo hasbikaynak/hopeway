@@ -27,7 +27,6 @@ public class ContactMessageService {
     private final DtoPojoMapper dtoPojoMapper;
 
 
-    //save()
     public ResponseMessage<ContactMessageResponse> save(ContactMessageRequest contactMessageRequest) {
         boolean isSameMessageOnTheSameDay = contactMessageRepository.existsByEmailEqualsAndDateEquals(contactMessageRequest.email(), LocalDate.now());
         if (isSameMessageOnTheSameDay) {
@@ -43,14 +42,12 @@ public class ContactMessageService {
     }
 
 
-    //searchByEmail()
     public Page<ContactMessageResponse> searchByEmail(String email, int page, int size, String sort, String type) {
         Pageable pageable = pageableHelper.getPageableWithProperties(page, size, sort, type);
         return contactMessageRepository.findByEmailEquals(email, pageable).map(dtoPojoMapper::createResponse);
     }
 
 
-    //searchBySubject()
     public Page<ContactMessageResponse> searchBySubject(String subject, int page, int size, String sort, String type) {
         Pageable pageable = pageableHelper.getPageableWithProperties(page, size, sort, type);
         return contactMessageRepository.findBySubjectEquals(subject, pageable).map(dtoPojoMapper::createResponse);
@@ -67,25 +64,22 @@ public class ContactMessageService {
     }
 
     public List<ContactMessageResponse> getAllContactMessages() {
-
         return contactMessageRepository.findAll()
                 .stream()
                 .map(dtoPojoMapper::createResponse)
                 .toList();
     }
 
-    public ResponseMessage deleteContactMessage(Long contactMessageId) {
-
+    public ResponseMessage<ContactMessageResponse> deleteContactMessage(Long contactMessageId) {
         isContactMessageExist(contactMessageId);
         contactMessageRepository.deleteById(contactMessageId);
-        return ResponseMessage.builder()
+        return ResponseMessage.<ContactMessageResponse>builder()
                 .message(SuccessMessages.CONTACT_MESSAGE_DELETED_SUCCESSFULLY)
                 .httpStatus(HttpStatus.OK)
                 .build();
     }
 
     private void isContactMessageExist(Long id) {
-
         contactMessageRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessages.USER_MESSAGE_NOT_FOUND, id)));
     }
