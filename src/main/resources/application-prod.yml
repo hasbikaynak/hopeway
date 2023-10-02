@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${HOST}:${PORT}/${DATABASE}
+    username: ${USER}
+    password: ${PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+hopeway:
+  app:
+    jwtSecret: ${SECRETKEY}
+    jwtExpirationMs: ${EXPIRATIONTIME}
+
+
+logging:
+  file:
+    name: hopeway_prod.log
+  pattern:
+    file: "%d %-5level [%thread] %logger:%msg%n"
+
+  level:
+    '[org.springframework.web]': INFO
+    '[org.hibernate]': INFO
+    '[com.hopeway]': INFO
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['info','health']
+
+  info:
+    env:
+      enabled: true

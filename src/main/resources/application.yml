@@ -1,0 +1,67 @@
+server:
+  port: 8080
+
+  error:
+    include-binding-errors: always
+    include-message: always
+    include-stacktrace: never
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hopeway_db
+    username: postgres
+    password: 1453
+
+  main:
+    allow-circular-references: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      '[hibernate.format_sql]': true
+
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+
+logging:
+  file:
+    name: logs/hopeway.log
+  pattern:
+    file: "%d %-5level [%thread] %logger:%msg%n"
+  level:
+    '[org.springframework.web]': WARN
+    '[org.hibernate]': INFO
+    '[com.hopeway]': DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+  info:
+    env:
+      enabled: true
+
+  endpoint:
+    health:
+      show-details: always
+
+    shutdown:
+      enabled: true
+
+hopeway:
+  app:
+    jwtSecret: hopeway@!23
+    jwtExpirationMs: 86400000
+
+info:
+  application:
+    name: 'Hopeway Backend App'
+    description: 'This is Hopeway Backend Project'
+    version: '@project.version@'
