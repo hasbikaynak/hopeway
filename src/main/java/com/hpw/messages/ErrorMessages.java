@@ -2,6 +2,8 @@ package com.hpw.messages;
 
 public class ErrorMessages {
 
+
+
     private ErrorMessages() {
     }
 
@@ -14,4 +16,5 @@ public class ErrorMessages {
     public static final String JWTTOKEN_ERROR_MESSAGE = "JWT Token Validation Error: %s";
 
     public static final String USER_NOT_FOUND_MESSAGE = "User not found with email %s";
+
 }
