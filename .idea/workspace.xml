@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8945b60e-807d-4efe-b4b9-ef5fbfb352d4" name="Changes" comment="dtopojoMapper">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/mapper/DtoPojoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/mapper/DtoPojoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/response/ContactMessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/payload/response/ContactMessageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/messages/ErrorMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/messages/ErrorMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpw/messages/SuccessMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpw/messages/SuccessMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -90,7 +85,7 @@
       <recent name="com.hpw.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hopeway">
+  <component name="RunManager">
     <configuration name="Hopeway" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.hpw.HopewayApplication" />
       <module name="demo" />
@@ -204,5 +199,16 @@
     <MESSAGE value="ResponseMessage.java space has been deleted" />
     <MESSAGE value="dtopojoMapper" />
     <option name="LAST_COMMIT_MESSAGE" value="dtopojoMapper" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hpw/contactmessage/ContactMessageService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
