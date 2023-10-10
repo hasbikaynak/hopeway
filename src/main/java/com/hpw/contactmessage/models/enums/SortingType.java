@@ -6,7 +6,7 @@ public enum SortingType {
     ASC("asc"),
     DESC("desc");
 
-    private String type;
+    private final String type;
 
     SortingType(String type) {
         this.type=type;
