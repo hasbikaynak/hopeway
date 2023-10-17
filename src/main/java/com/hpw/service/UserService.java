@@ -16,19 +16,15 @@ public class UserService {
     final private UserRepository userRepository;
     final private UserMapper userMapper;
 
-
     public User getUserByEmail(final String email) {
         return userRepository.findByEmail(email).orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessages.USER_NOT_FOUND_MESSAGE, email)));
     }
 
-    //getById()
     public UserResponse getUserById(Long id) {
-        //id kontrolü
         User user = isUserExist(id);
         return userMapper.mapUserToUserResponse(user);
-
     }
-    //yardimci method
+
     private User isUserExist(Long id){
         return userRepository.findById(id).orElseThrow(()->
                 new ResourceNotFoundException(String.format(ErrorMessages.USER_MESSAGE_NOT_FOUND, id)));

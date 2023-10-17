@@ -11,16 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 public class UserController {
-
     private UserService userService;
 
-
-    //getById()
     @GetMapping("/{id}")
     @PreAuthorize("hasAnyAuthority('ADMIN')")
-    public UserResponse getUserById(@PathVariable Long id){
+    public UserResponse getUserById(@PathVariable Long id) {
         return userService.getUserById(id);
     }
-
-
 }
