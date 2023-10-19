@@ -1,0 +1,172 @@
+2023-10-11 15:18:15,566 INFO  [restartedMain] com.hpw.HopewayApplication:Starting HopewayApplication using Java 17.0.8.1 with PID 15432 (D:\JavaProjects\hopeway\target\classes started by Nitro in D:\JavaProjects\hopeway)
+2023-10-11 15:18:15,579 INFO  [restartedMain] com.hpw.HopewayApplication:No active profile set, falling back to 1 default profile: "default"
+2023-10-11 15:18:15,697 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-11 15:18:15,698 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-11 15:18:18,106 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 15:18:18,252 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 132 ms. Found 2 JPA repository interfaces.
+2023-10-11 15:18:19,650 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-10-11 15:18:19,671 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-10-11 15:18:19,672 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 15:18:19,783 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-10-11 15:18:19,783 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 4061 ms
+2023-10-11 15:18:20,204 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 15:18:20,325 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 15:18:20,331 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-10-11 15:18:20,586 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:18:20,842 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 15:18:20,873 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-10-11 15:18:21,344 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13701721
+2023-10-11 15:18:21,347 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-10-11 15:18:22,236 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:18:23,979 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 15:18:24,253 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:18:25,891 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55035f87, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@594bf03b, org.springframework.security.web.context.SecurityContextHolderFilter@48976283, org.springframework.security.web.header.HeaderWriterFilter@369e9ddf, org.springframework.security.web.authentication.logout.LogoutFilter@2e9cb8d4, com.hpw.security.jwt.AuthTokenFilter@5de6b51a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@245b009, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55c56288, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b11d2e2, org.springframework.security.web.session.SessionManagementFilter@fa3f707, org.springframework.security.web.access.ExceptionTranslationFilter@3863e077, org.springframework.security.web.access.intercept.AuthorizationFilter@508b99ed]
+2023-10-11 15:18:27,919 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-10-11 15:18:27,932 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2023-10-11 15:18:28,085 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-11 15:18:28,126 INFO  [restartedMain] com.hpw.HopewayApplication:Started HopewayApplication in 13.427 seconds (process running for 19.754)
+2023-10-11 15:19:09,901 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 15:20:50,123 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:20:50,129 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-10-11 15:20:50,134 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-10-11 15:20:58,305 INFO  [restartedMain] com.hpw.HopewayApplication:Starting HopewayApplication using Java 17.0.8.1 with PID 12084 (D:\JavaProjects\hopeway\target\classes started by Nitro in D:\JavaProjects\hopeway)
+2023-10-11 15:20:58,311 INFO  [restartedMain] com.hpw.HopewayApplication:No active profile set, falling back to 1 default profile: "default"
+2023-10-11 15:20:58,403 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-11 15:20:58,404 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-11 15:21:00,331 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 15:21:00,439 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2023-10-11 15:21:01,614 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-10-11 15:21:01,752 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3347 ms
+2023-10-11 15:21:02,151 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 15:21:02,241 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 15:21:02,244 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-10-11 15:21:02,470 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:21:02,696 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 15:21:02,720 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-10-11 15:21:03,020 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ad21d80
+2023-10-11 15:21:03,023 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-10-11 15:21:03,465 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:21:04,644 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 15:21:04,796 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:21:05,880 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ef758fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5377930b, org.springframework.security.web.context.SecurityContextHolderFilter@6a50b94, org.springframework.security.web.header.HeaderWriterFilter@5752978c, org.springframework.security.web.authentication.logout.LogoutFilter@1561e011, com.hpw.security.jwt.AuthTokenFilter@7530f98, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58c6b159, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59e2f7a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1438dbb0, org.springframework.security.web.session.SessionManagementFilter@36f19c9e, org.springframework.security.web.access.ExceptionTranslationFilter@6e6bc242, org.springframework.security.web.access.intercept.AuthorizationFilter@26e37bd0]
+2023-10-11 15:21:07,754 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-10-11 15:21:07,770 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2023-10-11 15:21:27,794 INFO  [restartedMain] com.hpw.HopewayApplication:Starting HopewayApplication using Java 17.0.8.1 with PID 9564 (D:\JavaProjects\hopeway\target\classes started by Nitro in D:\JavaProjects\hopeway)
+2023-10-11 15:21:27,800 INFO  [restartedMain] com.hpw.HopewayApplication:No active profile set, falling back to 1 default profile: "default"
+2023-10-11 15:21:27,891 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-11 15:21:27,891 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-11 15:21:29,978 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 15:21:30,090 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+2023-10-11 15:21:31,433 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-10-11 15:21:31,457 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-10-11 15:21:31,458 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 15:21:31,586 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-10-11 15:21:31,587 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3694 ms
+2023-10-11 15:21:32,154 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 15:21:32,244 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 15:21:32,250 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-10-11 15:21:32,490 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:21:32,716 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 15:21:32,743 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-10-11 15:21:33,071 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1be33a8c
+2023-10-11 15:21:33,074 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-10-11 15:21:33,590 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:21:34,915 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 15:21:35,080 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:21:36,330 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2ddfc46d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@158fd8f4, org.springframework.security.web.context.SecurityContextHolderFilter@26a046dd, org.springframework.security.web.header.HeaderWriterFilter@17a90769, org.springframework.security.web.authentication.logout.LogoutFilter@53a32267, com.hpw.security.jwt.AuthTokenFilter@64a7c2ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d6abc93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70060fff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c7b78f5, org.springframework.security.web.session.SessionManagementFilter@23c83744, org.springframework.security.web.access.ExceptionTranslationFilter@44d757ec, org.springframework.security.web.access.intercept.AuthorizationFilter@2f22e953]
+2023-10-11 15:21:38,337 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-10-11 15:21:38,356 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2023-10-11 15:21:38,532 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-11 15:21:38,565 INFO  [restartedMain] com.hpw.HopewayApplication:Started HopewayApplication in 11.593 seconds (process running for 13.329)
+2023-10-11 15:21:51,789 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 15:24:31,211 INFO  [http-nio-8080-exec-3] org.apache.coyote.http11.Http11Processor:Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03-g0xaaJg0xd20xa50x07w0xc10x8a0xe30xc20xc4i>.G0xe60x900xc70xd50x7f0xa4F80x9b3r0xba0xd00x9d ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 15:24:31,213 INFO  [http-nio-8080-exec-5] org.apache.coyote.http11.Http11Processor:Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x02L0x010x000x02H0x030x03|0x930xc4~0x8cA0xa40x1a0xc5x0xf72U0x07,0xd10xa50x1dW0x950xc50x87\0xd30xe20x900xdbV0xdd0xd70x03[ ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 15:25:55,401 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:25:55,410 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-10-11 15:25:55,418 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-10-11 15:26:01,307 INFO  [restartedMain] com.hpw.HopewayApplication:Starting HopewayApplication using Java 17.0.8.1 with PID 5484 (D:\JavaProjects\hopeway\target\classes started by Nitro in D:\JavaProjects\hopeway)
+2023-10-11 15:26:01,311 INFO  [restartedMain] com.hpw.HopewayApplication:No active profile set, falling back to 1 default profile: "default"
+2023-10-11 15:26:01,403 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-11 15:26:01,403 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-11 15:26:03,389 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 15:26:03,532 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2023-10-11 15:26:05,045 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-10-11 15:26:05,061 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-10-11 15:26:05,062 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 15:26:05,201 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-10-11 15:26:05,202 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3796 ms
+2023-10-11 15:26:05,784 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 15:26:05,892 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 15:26:05,898 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-10-11 15:26:06,192 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:26:06,481 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 15:26:06,513 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-10-11 15:26:06,881 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20f7733e
+2023-10-11 15:26:06,883 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-10-11 15:26:07,490 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:26:08,935 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 15:26:09,134 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:26:10,452 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5962ba16, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6712b60a, org.springframework.security.web.context.SecurityContextHolderFilter@54c4538e, org.springframework.security.web.header.HeaderWriterFilter@1db6d34e, org.springframework.security.web.authentication.logout.LogoutFilter@4d6d87a1, com.hpw.security.jwt.AuthTokenFilter@2f7d53c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d05768d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12683844, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f24303c, org.springframework.security.web.session.SessionManagementFilter@494abfff, org.springframework.security.web.access.ExceptionTranslationFilter@3e97c91c, org.springframework.security.web.access.intercept.AuthorizationFilter@324191e9]
+2023-10-11 15:26:12,575 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-10-11 15:26:12,592 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2023-10-11 15:26:12,772 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-11 15:26:12,806 INFO  [restartedMain] com.hpw.HopewayApplication:Started HopewayApplication in 12.362 seconds (process running for 13.316)
+2023-10-11 15:26:43,055 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 15:29:30,881 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:29:30,887 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-10-11 15:29:30,895 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-10-11 15:29:36,632 INFO  [restartedMain] com.hpw.HopewayApplication:Starting HopewayApplication using Java 17.0.8.1 with PID 12960 (D:\JavaProjects\hopeway\target\classes started by Nitro in D:\JavaProjects\hopeway)
+2023-10-11 15:29:36,639 INFO  [restartedMain] com.hpw.HopewayApplication:No active profile set, falling back to 1 default profile: "default"
+2023-10-11 15:29:36,737 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-11 15:29:36,737 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-11 15:29:38,752 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 15:29:38,891 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 116 ms. Found 2 JPA repository interfaces.
+2023-10-11 15:29:40,267 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-10-11 15:29:40,279 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-10-11 15:29:40,281 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 15:29:40,402 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-10-11 15:29:40,403 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3665 ms
+2023-10-11 15:29:40,901 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 15:29:40,993 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 15:29:40,997 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-10-11 15:29:41,221 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:29:41,412 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 15:29:41,441 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-10-11 15:29:41,797 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@373d4991
+2023-10-11 15:29:41,800 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-10-11 15:29:42,240 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 15:29:43,419 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 15:29:43,549 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:29:44,600 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@51a14198, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40c6f396, org.springframework.security.web.context.SecurityContextHolderFilter@69465882, org.springframework.security.web.header.HeaderWriterFilter@e26e04d, org.springframework.security.web.authentication.logout.LogoutFilter@a92b8d8, com.hpw.security.jwt.AuthTokenFilter@31b93c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37dceaf6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bff3c4a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@157698a5, org.springframework.security.web.session.SessionManagementFilter@e16a524, org.springframework.security.web.access.ExceptionTranslationFilter@66129a23, org.springframework.security.web.access.intercept.AuthorizationFilter@1e81fee4]
+2023-10-11 15:29:46,315 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-10-11 15:29:46,329 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2023-10-11 15:29:46,483 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-11 15:29:46,515 INFO  [restartedMain] com.hpw.HopewayApplication:Started HopewayApplication in 10.676 seconds (process running for 11.439)
+2023-10-11 15:29:50,684 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 15:29:54,800 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 15:29:54,804 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-10-11 15:29:54,814 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
