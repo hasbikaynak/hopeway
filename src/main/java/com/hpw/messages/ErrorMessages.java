@@ -10,4 +10,5 @@ public class ErrorMessages {
     public static final String USER_MESSAGE_NOT_FOUND = "User not found with id %s";
     public static final String JWTTOKEN_ERROR_MESSAGE = "JWT Token Validation Error: %s";
     public static final String USER_NOT_FOUND_MESSAGE = "User not found with email %s";
+    public static final String USER_NOT_FOUND_WITH_USERNAME = "User not found with username %s";
 }
