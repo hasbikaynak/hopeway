@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
+import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -23,11 +24,15 @@ public class UserResponse {
     private Long id;
     private String firstName;
     private String lastName;
-    private String username;
+    private String userName;
     private String email;
     private String password;
     private String phoneNumber;
     private String address;
     private String zipCode;
+    private String nationality;
+    private String asylumCountry;
+    private LocalDate registrationDate;
+    private boolean built_in;
 
 }
